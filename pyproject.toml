@@ -27,4 +27,3 @@ select = [
 testpaths = [
     "tests"
 ]
-addopts = "-o python_files=test_*.py --no-empty-collect"

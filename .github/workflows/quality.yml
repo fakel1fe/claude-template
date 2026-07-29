@@ -1,0 +1,29 @@
+name: Quality Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check repository
+        run: |
+          echo "Repository check started"
+          ls -la
+
+      - name: Run tests if available
+        run: |
+          if [ -f package.json ]; then
+            npm install
+            npm test --if-present
+          fi

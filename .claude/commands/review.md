@@ -1,6 +1,7 @@
 Review current changes as a senior engineer.
 
 Check:
+
 1. git diff.
 2. Code quality.
 3. Architecture consistency.

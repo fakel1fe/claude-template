@@ -1,6 +1,7 @@
 Prepare changes for git commit.
 
 Steps:
+
 1. Review git status.
 2. Review git diff.
 3. Summarize changes.

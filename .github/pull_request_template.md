@@ -6,13 +6,13 @@ Describe what changed.
 
 ## Changes
 
-- 
+-
 
 ## Testing
 
 Commands executed:
 
-- 
+-
 
 ## Risks
 

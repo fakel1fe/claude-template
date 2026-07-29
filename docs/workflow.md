@@ -49,6 +49,7 @@ Run:
 `/test`
 
 Check:
+
 - functionality
 - errors
 - regressions
@@ -64,6 +65,7 @@ Use:
 `/review`
 
 Check:
+
 - code quality
 - security
 - architecture

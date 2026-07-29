@@ -2,42 +2,53 @@
 
 ## Purpose
 
-Describe what this project does.
+Template for AI-assisted software development with Claude Code.
 
 ## Tech Stack
 
-List technologies and versions.
-
-Example:
-
-- Language:
-- Framework:
-- Database:
-- Infrastructure:
+- Node.js 22 LTS
+- Python 3.12
+- uv
+- Docker
+- GitHub Actions
 
 ## Project Structure
 
-Describe important directories.
+- .claude/ - Claude Code commands
+- .github/ - GitHub configuration
+- docs/ - documentation
+- scripts/ - automation
+- src/ - source code
+- tests/ - tests
 
 ## Development Commands
 
-List common commands.
+Setup:
+make setup
 
-Example:
+Test:
+make test
 
-- Install:
-- Development:
-- Test:
-- Build:
+Clean:
+make clean
 
-## Environment Variables
+## Environment
 
-Describe required environment variables.
+Copy .env.example to .env.
 
-## Architecture Notes
+Never commit secrets.
 
-Describe important technical decisions.
+## Workflow
+
+1. Understand project context.
+2. Create a plan.
+3. Implement changes.
+4. Review code.
+5. Run tests.
+6. Commit changes.
 
 ## Constraints
 
-List limitations and important rules.
+- Avoid unnecessary dependencies.
+- Prefer maintainable solutions.
+- Keep documentation updated.

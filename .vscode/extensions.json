@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "anthropic.claude-code",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "github.copilot",
+    "github.vscode-github-actions"
+  ]
+}

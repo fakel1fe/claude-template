@@ -5,7 +5,11 @@ setup:
 
 test:
 	@if [ -f package.json ]; then npm test --if-present; fi
-	@if [ -f pyproject.toml ]; then uv run pytest || [ $? -eq 5 ]; fi
+	@if [ -f pyproject.toml ]; then \
+		uv run pytest; \
+		status=$$?; \
+		if [ $$status -ne 0 ] && [ $$status -ne 5 ]; then exit $$status; fi; \
+	fi
 
 lint:
 	@if [ -f package.json ]; then npm run lint --if-present; fi

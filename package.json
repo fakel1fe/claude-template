@@ -2,6 +2,7 @@
   "name": "project-template",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "echo 'Add development command'",
     "test": "echo 'Add tests'",

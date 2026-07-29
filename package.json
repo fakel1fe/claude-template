@@ -5,6 +5,11 @@
   "scripts": {
     "dev": "echo 'Add development command'",
     "test": "echo 'Add tests'",
-    "lint": "echo 'Add linter'"
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
   }
 }

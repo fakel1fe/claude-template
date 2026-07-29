@@ -1,0 +1,10 @@
+{
+  "name": "project-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Add development command'",
+    "test": "echo 'Add tests'",
+    "lint": "echo 'Add linter'"
+  }
+}

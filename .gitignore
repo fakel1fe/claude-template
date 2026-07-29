@@ -22,7 +22,6 @@ __pycache__/
 venv/
 
 # uv
-.python-version
 
 # Docker
 *.log

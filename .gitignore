@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# uv
+.python-version
+
+# Docker
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Claude local
+.claude/local/
